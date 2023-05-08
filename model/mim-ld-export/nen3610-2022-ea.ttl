@@ -23,7 +23,7 @@ Mim versie 1.1.1 is toegepast.
   ea:guid '65777670-24BF-4aeb-9A66-6123DF281671';
   rdfs:label '''NEN3610''';
   ea:parent <urn:package:2>;
-  rdfs:comment '''NEN 3610:2022 - Basismodel geo-informatie Â– Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.
+  rdfs:comment '''NEN 3610:2022 - Basismodel geo-informatie ? Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.
 
 Mim versie 1.1.1 is toegepast.''';
 .
@@ -33,7 +33,7 @@ Mim versie 1.1.1 is toegepast.''';
   ea:parent <urn:package:180>;
   rdfs:comment '''<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4
 
-Het semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reÃ«le objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object.
+Het semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reële objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object.
 ''';
 .
 <urn:package:182> a ea:Package;
@@ -124,7 +124,7 @@ Mim versie 1.1.1 is toegepast.
   ea:alias '''/Geonovum/nen3610-werkomgeving''';
   ea:abstract false;
   ea:package <urn:package:2>;
-  rdfs:comment '''NEN 3610:2022 - Basismodel geo-informatie Â– Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.
+  rdfs:comment '''NEN 3610:2022 - Basismodel geo-informatie ? Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.
 
 Mim versie 1.1.1 is toegepast.''';
 .
@@ -157,7 +157,7 @@ De basisinformatie-elementen zijn de elementen die een centrale rol spelen in NE
   ea:package <urn:package:180>;
   rdfs:comment '''<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4
 
-Het semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reÃ«le objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object.
+Het semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reële objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object.
 ''';
 .
 <urn:object:42> a ea:Object;
@@ -238,7 +238,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   ea:alias '''Leiding''';
   ea:abstract true;
   ea:package <urn:package:181>;
-  rdfs:comment '''Een geheel van geleiders of een ruimte die voorzien is van Ã©Ã©n ommanteling en bestemd is voor transport van materie, data en/of energie.''';
+  rdfs:comment '''Een geheel van geleiders of een ruimte die voorzien is van één ommanteling en bestemd is voor transport van materie, data en/of energie.''';
 .
 <urn:object:46> a ea:Object;
   ea:guid '507F9B4B-F77E-48f2-848E-2EB7220A99C6';
@@ -307,7 +307,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''Integer''';
   ea:abstract false;
   ea:package <urn:package:5>;
-  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: geheel getal, lengte is minimaal 1 en maximale lengte is onbepaald, zonder voorloopnullen. Opmerking: t.a.v. positieve en negatieve getalen en + en Â– tekens: bijvoorbeeld -2,0 Het (formeel) patroon geeft aan of een + en/of - teken gebruikt mag worden in het gegeven.''';
+  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: geheel getal, lengte is minimaal 1 en maximale lengte is onbepaald, zonder voorloopnullen. Opmerking: t.a.v. positieve en negatieve getalen en + en ? tekens: bijvoorbeeld -2,0 Het (formeel) patroon geeft aan of een + en/of - teken gebruikt mag worden in het gegeven.''';
 .
 <urn:object:57> a ea:Object;
   ea:guid '326BCEE7-4BD2-46bb-BAFB-347B1076AE1D';
@@ -325,7 +325,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''Real''';
   ea:abstract false;
   ea:package <urn:package:5>;
-  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een real is een zwevendekommagetal, waarbij de precisie bepaald wordt door het aantal getoonde cijfers. Het getoonde getal is een schatting en geeft niet noodzakelijk de exacte waarde weer. Opmerking 1: Dit verschilt van decimal, want decimal is een exacte waarde en real is geschat. Opmerking 2: t.a.v. positieve en negatieve getalen en + en Â– tekens: zie Integer.''';
+  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een real is een zwevendekommagetal, waarbij de precisie bepaald wordt door het aantal getoonde cijfers. Het getoonde getal is een schatting en geeft niet noodzakelijk de exacte waarde weer. Opmerking 1: Dit verschilt van decimal, want decimal is een exacte waarde en real is geschat. Opmerking 2: t.a.v. positieve en negatieve getalen en + en ? tekens: zie Integer.''';
 .
 <urn:object:60> a ea:Object;
   ea:guid '6D9078A3-14CB-4b1f-85A5-15207CBBBDDA';
@@ -484,7 +484,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''Decimal''';
   ea:abstract false;
   ea:package <urn:package:5>;
-  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een decimal is een gegevenstype waarin het getal een exacte waarde vertegenwoordigt, als een eindige weergave van een decimaal getal. Aangezien veel valuta's decimaal zijn, hebben deze weergaven de voorkeur bij het omgaan met dergelijke waarden. Opmerking 1: Dit verschilt van real, want real is een geschatte waarde en Decimal is exact. Opmerking 2: t.a.v. positieve en negatieve getalen en + en Â– tekens: zie Integer.''';
+  rdfs:comment '''MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een decimal is een gegevenstype waarin het getal een exacte waarde vertegenwoordigt, als een eindige weergave van een decimaal getal. Aangezien veel valuta's decimaal zijn, hebben deze weergaven de voorkeur bij het omgaan met dergelijke waarden. Opmerking 1: Dit verschilt van real, want real is een geschatte waarde en Decimal is exact. Opmerking 2: t.a.v. positieve en negatieve getalen en + en ? tekens: zie Integer.''';
 .
 <urn:object:752> a ea:Object;
   ea:guid 'D42DDF6A-AFFF-401a-8EE2-A1FD76A61DF1';
@@ -547,7 +547,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   ea:type '''Class''';
   ea:stereotype '''Objecttype''';
   rdfs:label '''ReeelObject''';
-  ea:alias '''ReÃ«el object''';
+  ea:alias '''Reëel object''';
   ea:abstract true;
   ea:package <urn:package:181>;
   rdfs:comment '''Geo-object dat zich geheel materieel manifesteert.''';
@@ -632,7 +632,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''iDToegestaneKarakters''';
   ea:abstract false;
   ea:package <urn:package:181>;
-  rdfs:comment '''identificatie.regExpMatch(Â‘([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+')''';
+  rdfs:comment '''identificatie.regExpMatch(?([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+')''';
 .
 <urn:object:1084> a ea:Object;
   ea:guid '8A4801C0-D263-4a0b-99C5-A0C7A67FFE62';
@@ -718,7 +718,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''domeinToegestaneKarakters''';
   ea:abstract false;
   ea:package <urn:package:181>;
-  rdfs:comment '''identificatie.regExpMatch(Â‘([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+')''';
+  rdfs:comment '''identificatie.regExpMatch(?([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+')''';
 .
 <urn:object:1092> a ea:Object;
   ea:guid 'DAECA380-235D-4a0a-95B9-A3C166AAC4BD';
@@ -755,7 +755,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   rdfs:label '''IdentificeerbaarObject''';
   ea:abstract true;
   ea:package <urn:package:182>;
-  rdfs:comment '''Klasse opgenomen om identificatie-attributen in te definiÃ«ren.''';
+  rdfs:comment '''Klasse opgenomen om identificatie-attributen in te definiëren.''';
 .
 <urn:object:1096> a ea:Object;
   ea:guid '47CE152F-6789-46dc-A29F-33647F0A644A';
@@ -794,7 +794,7 @@ Het semantisch model classificeert de objecttypen waarbij locatie-informatie van
   ea:stereotype '''Attribuutsoort''';
   ea:object <urn:object:1095>;
   rdfs:comment '''Unieke identificatiecode van een informatieobject binnen de context van een registratie.
-Toelichting:  Â‘identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+Toelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
 De reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+''';
   ea:lowerBound '''1''';
   ea:upperBound '''1''';
@@ -1007,7 +1007,7 @@ De reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|
   ea:stereotype '''Attribuutsoort''';
   ea:object <urn:object:991>;
   rdfs:comment '''Unieke identificatiecode van een informatieobject binnen de context van een registratie.
-Toelichting:  Â‘identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+Toelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
 De reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]''';
   ea:lowerBound '''1''';
   ea:upperBound '''1''';
@@ -1020,7 +1020,7 @@ De reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:
   ea:stereotype '''Attribuutsoort''';
   ea:object <urn:object:991>;
   rdfs:comment '''Definitie: Aanduiding van het domein waarbinnen de identificatie uniek is.
-Toelichting: Het attribuut Â‘domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.
+Toelichting: Het attribuut ?domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.
 
 ''';
   ea:lowerBound '''1''';
@@ -1780,10 +1780,10 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
 <urn:attributetag:7676> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-BA4C-FA9D21ED30AC';
   ea:element <urn:attribute:819>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7677> a ea:Attributetag;
@@ -1959,19 +1959,19 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
 <urn:attributetag:7701> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-8A2A-FCC69E91418E';
   ea:element <urn:attribute:820>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7704> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-88C9-AEF61013CA7D';
   ea:element <urn:attribute:821>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7705> a ea:Attributetag;
@@ -2112,10 +2112,10 @@ Description: Indicatie of de formele historie van het kenmerk van het object bij
 <urn:attributetag:7602> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-9C2B-A3C042E19964';
   ea:element <urn:attribute:813>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7603> a ea:Attributetag;
@@ -2143,7 +2143,7 @@ Description: Indicatie dat een attribuutsoort het objecttype waar het bij hoort 
   ea:element <urn:attribute:813>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Â‘identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+  ea:notes '''?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
 De reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+''';
 .
 <urn:attributetag:7606> a ea:Attributetag;
@@ -2264,7 +2264,7 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
   ea:element <urn:attribute:754>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het Â‘vanaf-moment'. Bij een datum (date) is dat het begin van die dag.''';
+  ea:notes '''Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het ?vanaf-moment'. Bij een datum (date) is dat het begin van die dag.''';
 .
 <urn:attributetag:7066> a ea:Attributetag;
   ea:guid '98327E03-64C9-4564-B73F-25DB692D0826';
@@ -2293,7 +2293,7 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
   ea:element <urn:attribute:755>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het Â‘tot-moment'.''';
+  ea:notes '''Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het ?tot-moment'.''';
 .
 <urn:attributetag:7075> a ea:Attributetag;
   ea:guid 'BE7DA005-D88B-42d8-B641-73DEDF9D7235';
@@ -2422,10 +2422,10 @@ Description: Indicatie dat een attribuutsoort het objecttype waar het bij hoort 
 <urn:attributetag:7619> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-BD71-1BAD16F6AC0F';
   ea:element <urn:attribute:814>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7620> a ea:Attributetag;
@@ -2546,10 +2546,10 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
 <urn:attributetag:7634> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-A4E7-7416540F289C';
   ea:element <urn:attribute:815>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7635> a ea:Attributetag;
@@ -2803,7 +2803,7 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
   ea:element <urn:attribute:769>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Het attribuut Â‘domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.''';
+  ea:notes '''Het attribuut ?domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.''';
 .
 <urn:attributetag:7233> a ea:Attributetag;
   ea:guid '6B33862D-45B3-a345-B55E-E7B9DDC1304E';
@@ -3137,10 +3137,10 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
 <urn:attributetag:7643> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-BC1B-B57C1EE57F55';
   ea:element <urn:attribute:816>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7644> a ea:Attributetag;
@@ -3238,7 +3238,7 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
   ea:element <urn:attribute:816>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het Â‘vanaf-moment'. Bij een datum (date) is dat het begin van die dag.''';
+  ea:notes '''Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het ?vanaf-moment'. Bij een datum (date) is dat het begin van die dag.''';
 .
 <urn:attributetag:7648> a ea:Attributetag;
   ea:guid 'FB3F1EDB-3161-ef31-A703-381AA604F4E7';
@@ -3342,7 +3342,7 @@ Description: Indicatie of de formele historie van het kenmerk van het object bij
   ea:element <urn:attribute:817>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het Â‘tot-moment'.''';
+  ea:notes '''Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het ?tot-moment'.''';
 .
 <urn:attributetag:7655> a ea:Attributetag;
   ea:guid '6B33862D-45B3-a345-B18C-BC52CD6F8BEF';
@@ -3388,10 +3388,10 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
 <urn:attributetag:7661> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-A1AD-271F9D8A9521';
   ea:element <urn:attribute:817>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7662> a ea:Attributetag;
@@ -3442,10 +3442,10 @@ Description: Indicatie dat een attribuutsoort het objecttype waar het bij hoort 
 <urn:attributetag:7668> a ea:Attributetag;
   ea:guid '8F70DA6F-38F5-1138-8D1A-82146269D8FA';
   ea:element <urn:attribute:818>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:attributetag:7669> a ea:Attributetag;
@@ -3559,7 +3559,7 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
   ea:element <urn:attribute:768>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes ''' Â‘identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+  ea:notes ''' ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
 
 De reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]''';
 .
@@ -3861,7 +3861,7 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
   ea:element <urn:connector:780>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''De registratiegegevens zijn de versie en tijdlijngegevens die horen bij het registreren van Ã©Ã©n versie van het informatieobject. Ze horen als metadata bij de gegevensset van het informatieobject.''';
+  ea:notes '''De registratiegegevens zijn de versie en tijdlijngegevens die horen bij het registreren van één versie van het informatieobject. Ze horen als metadata bij de gegevensset van het informatieobject.''';
 .
 <urn:connectortag:1369> a ea:Connectortag;
   ea:guid '6B33862D-9DF5-b69d-87A4-B1D9F873C3D1';
@@ -3874,10 +3874,10 @@ Description: Aanduiding of het kenmerk een authentiek gegeven betreft.
 <urn:connectortag:1370> a ea:Connectortag;
   ea:guid '8F70DA6F-2637-1926-A644-D5A4AC285E66';
   ea:element <urn:connector:780>;
-  ea:property '''Indicatie materiÃ«le historie''';
+  ea:property '''Indicatie materiële historie''';
   ea:value '''Nee''';
   ea:notes '''Values: Ja,Nee
-Description: Indicatie of de materiÃ«le historie van het kenmerk van het object te bevragen is.
+Description: Indicatie of de materiële historie van het kenmerk van het object te bevragen is.
 ''';
 .
 <urn:connectortag:1371> a ea:Connectortag;
@@ -4085,7 +4085,7 @@ Description: Aanduiding dat van een aspect geen waarde is geregistreerd, maar da
   ea:property '''Informatiemodeltype''';
   ea:value '''logisch''';
   ea:notes '''Values: conceptueel,logisch
-Description: De beschrijving van de aard van het informatiemodel, hoe het geÃ¯nterpreteerd moet worden.
+Description: De beschrijving van de aard van het informatiemodel, hoe het geïnterpreteerd moet worden.
 ''';
 .
 <urn:objectproperty:4618> a ea:ObjectProperty;
@@ -4154,7 +4154,7 @@ Description: De beschrijving van de aard van het informatiemodel, hoe het geÃ¯nt
   ea:property '''Informatiemodeltype''';
   ea:value '''conceptueel''';
   ea:notes '''Values: conceptueel,logisch
-Description: De beschrijving van de aard van het informatiemodel, hoe het geÃ¯nterpreteerd moet worden.
+Description: De beschrijving van de aard van het informatiemodel, hoe het geïnterpreteerd moet worden.
 ''';
 .
 <urn:objectproperty:5151> a ea:ObjectProperty;
@@ -4440,7 +4440,7 @@ Description: Aanduiding van een in MIM gedefinieerd alternatief voor een modelle
   ea:element <urn:object:1080>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Een reÃ«el of fysiek object is een tastbaar begrensd object dat gekenmerkt wordt door zijn materiele samenstelling en structuur.''';
+  ea:notes '''Een reëel of fysiek object is een tastbaar begrensd object dat gekenmerkt wordt door zijn materiele samenstelling en structuur.''';
 .
 <urn:objectproperty:5248> a ea:ObjectProperty;
   ea:guid 'EBF7A679-4E9D-974e-81E1-95E6989ECD7F';
@@ -4530,7 +4530,7 @@ Description: Aanduiding van een in MIM gedefinieerd alternatief voor een modelle
   ea:element <urn:object:1084>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Een functionele ruimte wordt gebruikt om een (gebruiks)functie aan een ruimte toe te kennen. Het functionele gebruik van de ruimte volgt niet altijd de fysieke begrenzing van reÃ«le objecten.''';
+  ea:notes '''Een functionele ruimte wordt gebruikt om een (gebruiks)functie aan een ruimte toe te kennen. Het functionele gebruik van de ruimte volgt niet altijd de fysieke begrenzing van reële objecten.''';
 .
 <urn:objectproperty:5262> a ea:ObjectProperty;
   ea:guid 'EBF7A679-4E9D-974e-8A4E-205C08E4D61C';
@@ -5393,7 +5393,7 @@ Ieder parcours bestaat in de regel uit de volgende onderdelen: Tee-box, Green, H
   ea:element <urn:object:1075>;
   ea:property '''Toelichting''';
   ea:value '''<memo>''';
-  ea:notes '''Van dit objecttype worden geen directe instanties gemaakt. Indien een object een geo-object is, is het altijd een instantie van een subklasse van GeoObject. Alle subklassen van GeoObject hebben conform MIM het stereotype Â«ObjecttypeÂ». Voor publicatie conform NEN-EN-ISO 19109:2015 is het stereotype Â«FeatureTypeÂ» verplicht. Binnen de context van NEN 3610 is Â«ObjecttypeÂ» het equivalent van Â«FeatureTypeÂ».''';
+  ea:notes '''Van dit objecttype worden geen directe instanties gemaakt. Indien een object een geo-object is, is het altijd een instantie van een subklasse van GeoObject. Alle subklassen van GeoObject hebben conform MIM het stereotype «Objecttype». Voor publicatie conform NEN-EN-ISO 19109:2015 is het stereotype «FeatureType» verplicht. Binnen de context van NEN 3610 is «Objecttype» het equivalent van «FeatureType».''';
 .
 <urn:objectproperty:5213> a ea:ObjectProperty;
   ea:guid 'EBF7A679-4E9D-974e-940E-57970EA137B8';

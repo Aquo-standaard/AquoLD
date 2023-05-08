@@ -17,7 +17,7 @@
         mim:alias                    "Leiding" ;
         mim:begrip                   <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/leiding> ;
         mim:datumOpname              "20220601" ;
-        mim:definitie                "Een geheel van geleiders of een ruimte die voorzien is van één ommanteling en bestemd is voor transport van materie, data en/of energie." ;
+        mim:definitie                "Een geheel van geleiders of een ruimte die voorzien is van \uFFFD\uFFFDn ommanteling en bestemd is voor transport van materie, data en/of energie." ;
         mim:herkomst                 "nen 3610" ;
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  true ;
@@ -86,19 +86,18 @@
         mim:type               <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:31F3B3C6-3B38-4887-8133-45F4B9AFE04E>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/object_begintijd> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Tijdsaanduiding waarop het object in de werkelijkheid is ontstaan." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "1..1" ;
-        mim:naam                        "objectBeginTijd" ;
-        mim:toelichting                 "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime." ;
-        mim:type                        <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/object_begintijd> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Tijdsaanduiding waarop het object in de werkelijkheid is ontstaan." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "1..1" ;
+        mim:naam                      "objectBeginTijd" ;
+        mim:toelichting               "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime." ;
+        mim:type                      <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
 
 <urn:uuid:C16B3487-F0C4-4e06-BDBB-72DDA60C7BA8>
         a                            mim:Objecttype ;
@@ -136,32 +135,31 @@
         mim:type               <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:8019CE46-6177-44c4-9972-8AE01237479B>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/object_eindtijd> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Tijdsaanduiding waarop het object in de werkelijkheid niet meer geldig is." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "0..-1" ;
-        mim:naam                        "objectEindTijd" ;
-        mim:toelichting                 "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime." ;
-        mim:type                        <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/object_eindtijd> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Tijdsaanduiding waarop het object in de werkelijkheid niet meer geldig is." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "0..-1" ;
+        mim:naam                      "objectEindTijd" ;
+        mim:toelichting               "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime." ;
+        mim:type                      <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
 
 <urn:uuid:B1DCD0A9-DD62-4e0c-BA9A-8814195245DE>
         a                      mim:Attribuutsoort ;
         mim:authentiek         mim:OverigeAuthenticiteit ;
         mim:datumOpname        "2022-06-01" ;
-        mim:definitie          "Definitie: Aanduiding van het domein waarbinnen de identificatie uniek is.\r\nToelichting: Het attribuut domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
+        mim:definitie          "Definitie: Aanduiding van het domein waarbinnen de identificatie uniek is.\r\nToelichting: Het attribuut ?domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
         mim:herkomst           "nen 3610" ;
         mim:herkomstDefinitie  "nen 3610" ;
         mim:identificerend     true ;
         mim:kardinaliteit      "1..1" ;
         mim:naam               "domein" ;
         mim:patroon            "De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, oftewel het waardenbereik, uitgedrukt in een specifieke structuur." ;
-        mim:toelichting        "Het attribuut domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
+        mim:toelichting        "Het attribuut ?domein' is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
         mim:type               <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:C0E1DE08-012B-4478-A497-C2E87BB8F3B4>
@@ -192,7 +190,7 @@
 
 <urn:uuid:DBD4AFFA-728D-490d-BAA3-2A572972BAB3>
         a                            mim:PrimitiefDatatype ;
-        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een decimal is een gegevenstype waarin het getal een exacte waarde vertegenwoordigt, als een eindige weergave van een decimaal getal. Aangezien veel valuta's decimaal zijn, hebben deze weergaven de voorkeur bij het omgaan met dergelijke waarden. Opmerking 1: Dit verschilt van real, want real is een geschatte waarde en Decimal is exact. Opmerking 2: t.a.v. positieve en negatieve getalen en + en  tekens: zie Integer." ;
+        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een decimal is een gegevenstype waarin het getal een exacte waarde vertegenwoordigt, als een eindige weergave van een decimaal getal. Aangezien veel valuta's decimaal zijn, hebben deze weergaven de voorkeur bij het omgaan met dergelijke waarden. Opmerking 1: Dit verschilt van real, want real is een geschatte waarde en Decimal is exact. Opmerking 2: t.a.v. positieve en negatieve getalen en + en ? tekens: zie Integer." ;
         mim:indicatieAbstractObject  false ;
         mim:naam                     "Decimal" .
 
@@ -208,19 +206,18 @@
         mim:relatierol  <urn:uuid-dst:33D0CE91-861B-4b77-8627-06FAD1B0C7FF> .
 
 <urn:uuid:333010ED-98E6-474b-A1BF-83F659BDD317>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/eind_registratie> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Eind van de periode dat deze versie van het informatieobject actueel is in de registratie. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog actueel." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "0..1" ;
-        mim:naam                        "eindRegistratie" ;
-        mim:toelichting                 "Vanaf deze tijdsaanduiding is deze versie van het informatieobject niet meer  actueel in de registratie. Met actueel wordt bedoeld dat er geen nieuwere versie 4 in de registratie is voor dit informatieobject. Aan een lege eindregistratie is ook te zien dat het de actuele versie betreft. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Voor tijdstipRegistratie zal DateTime in vrijwel alle gevallen de beste keuze zijn. \r\n\r\nWanneer bepaalde gegevens op de tijdlijn geldigheid niet meer geldig zijn, te herkennen aan de eindGeldigheid van een versie, wordt bij het vullen van de eindGeldigheid tegelijkertijd ook altijd de eindRegistratie gevuld zodat het duidelijk is vanaf welk moment op de tijdlijn registratie deze gegevens niet meer actueel zijn. De eindRegistratie geeft dus aan wanneer er geregistreerd is dat deze gegevens niet meer actueel zijn." ;
-        mim:type                        <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/eind_registratie> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Eind van de periode dat deze versie van het informatieobject actueel is in de registratie. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog actueel." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "0..1" ;
+        mim:naam                      "eindRegistratie" ;
+        mim:toelichting               "Vanaf deze tijdsaanduiding is deze versie van het informatieobject niet meer  actueel in de registratie. Met actueel wordt bedoeld dat er geen nieuwere versie 4 in de registratie is voor dit informatieobject. Aan een lege eindregistratie is ook te zien dat het de actuele versie betreft. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Voor tijdstipRegistratie zal DateTime in vrijwel alle gevallen de beste keuze zijn. \r\n\r\nWanneer bepaalde gegevens op de tijdlijn geldigheid niet meer geldig zijn, te herkennen aan de eindGeldigheid van een versie, wordt bij het vullen van de eindGeldigheid tegelijkertijd ook altijd de eindRegistratie gevuld zodat het duidelijk is vanaf welk moment op de tijdlijn registratie deze gegevens niet meer actueel zijn. De eindRegistratie geeft dus aan wanneer er geregistreerd is dat deze gegevens niet meer actueel zijn." ;
+        mim:type                      <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
 
 <urn:uuid:3F712AF5-BAAF-41ae-8F7A-4C43B1908A63>
         mim:bron        <urn:uuid:63F459F5-DBA6-4b91-A04A-30797C2A590F> ;
@@ -228,22 +225,21 @@
         mim:relatierol  <urn:uuid-dst:3F712AF5-BAAF-41ae-8F7A-4C43B1908A63> .
 
 <urn:uuid:A1B98275-C1D6-416a-A61B-AACB4C8C44A4>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/identificatie> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
-        mim:formeelPatroon              "([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:identificerend              true ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "1..1" ;
-        mim:naam                        "identificatie" ;
-        mim:patroon                     "Alleen de volgende karakters mogen in een waarde van het attribuut identificatie voorkomen: {'A' ... 'Z', 'a' ... 'z', '0' ... '9', '_', '-', ',', '.', '/', ':'}" ;
-        mim:toelichting                 "identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
-        mim:type                        <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/identificatie> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        mim:formeelPatroon            "([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:identificerend            true ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "1..1" ;
+        mim:naam                      "identificatie" ;
+        mim:patroon                   "Alleen de volgende karakters mogen in een waarde van het attribuut identificatie voorkomen: {'A' ... 'Z', 'a' ... 'z', '0' ... '9', '_', '-', ',', '.', '/', ':'}" ;
+        mim:toelichting               "?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        mim:type                      <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8>
         a                            mim:PrimitiefDatatype ;
@@ -340,19 +336,18 @@
         mim:type               <urn:uuid:6117ACBD-3892-4c5a-8241-2570BD334665> .
 
 <urn:uuid:B93562C6-BBB6-4431-8119-35D79689E9C9>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/eind_geldigheid> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Eind van de periode waarop deze versie van het informatieobject geldig is. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog geldig." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "0..1" ;
-        mim:naam                        "eindGeldigheid" ;
-        mim:toelichting                 "Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het tot-moment'." ;
-        mim:type                        <urn:uuid:326BCEE7-4BD2-46bb-BAFB-347B1076AE1D> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/eind_geldigheid> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Eind van de periode waarop deze versie van het informatieobject geldig is. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog geldig." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "0..1" ;
+        mim:naam                      "eindGeldigheid" ;
+        mim:toelichting               "Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het ?tot-moment'." ;
+        mim:type                      <urn:uuid:326BCEE7-4BD2-46bb-BAFB-347B1076AE1D> .
 
 <urn:uuid:48C4DEE9-CDC2-424d-9F39-4F0035FB41C4>
         a                      mim:Enumeratiewaarde ;
@@ -415,7 +410,7 @@
         mim:herkomstDefinitie  "nen 3610" ;
         mim:kardinaliteit      "1..1" ;
         mim:naam               "beginGeldigheid" ;
-        mim:toelichting        "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het vanaf-moment'. Bij een datum (date) is dat het begin van die dag." .
+        mim:toelichting        "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het ?vanaf-moment'. Bij een datum (date) is dat het begin van die dag." .
 
 <urn:uuid:8A62C85A-5D12-4fe9-8594-79B16FD4192D>
         a                      mim:Gegevensgroep ;
@@ -433,7 +428,7 @@
         mim:herkomstDefinitie  "nen 3610" ;
         mim:kardinaliteit      "0..1" ;
         mim:naam               "eindGeldigheid" ;
-        mim:toelichting        "Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het tot-moment'." .
+        mim:toelichting        "Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Het eind van de periode is tot het begin van de tijdsaanduiding; het ?tot-moment'." .
 
 <urn:uuid:CE19F627-55D5-40ee-8970-B44AC0264C03>
         a                      mim:Enumeratiewaarde ;
@@ -481,7 +476,7 @@
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  true ;
         mim:naam                     "FunctioneleRuimte" ;
-        mim:toelichting              "Een functionele ruimte wordt gebruikt om een (gebruiks)functie aan een ruimte toe te kennen. Het functionele gebruik van de ruimte volgt niet altijd de fysieke begrenzing van reële objecten." .
+        mim:toelichting              "Een functionele ruimte wordt gebruikt om een (gebruiks)functie aan een ruimte toe te kennen. Het functionele gebruik van de ruimte volgt niet altijd de fysieke begrenzing van re\uFFFDle objecten." .
 
 <urn:uuid:ADBF0588-0D6F-4704-A532-9F1E819403BC>
         a                            mim:Domein ;
@@ -499,7 +494,7 @@
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  true ;
         mim:naam                     "GeoObject" ;
-        mim:toelichting              "Van dit objecttype worden geen directe instanties gemaakt. Indien een object een geo-object is, is het altijd een instantie van een subklasse van GeoObject. Alle subklassen van GeoObject hebben conform MIM het stereotype «Objecttype». Voor publicatie conform NEN-EN-ISO 19109:2015 is het stereotype «FeatureType» verplicht. Binnen de context van NEN 3610 is «Objecttype» het equivalent van «FeatureType»." .
+        mim:toelichting              "Van dit objecttype worden geen directe instanties gemaakt. Indien een object een geo-object is, is het altijd een instantie van een subklasse van GeoObject. Alle subklassen van GeoObject hebben conform MIM het stereotype \uFFFDObjecttype\uFFFD. Voor publicatie conform NEN-EN-ISO 19109:2015 is het stereotype \uFFFDFeatureType\uFFFD verplicht. Binnen de context van NEN 3610 is \uFFFDObjecttype\uFFFD het equivalent van \uFFFDFeatureType\uFFFD." .
 
 <urn:uuid:93CF48D4-B42A-4cf4-9B9D-337FC41A75CF>
         mim:bron        <urn:uuid:D126219C-0012-45d8-80FB-D521E25484E0> ;
@@ -508,7 +503,7 @@
 
 <urn:uuid:65280E13-7AA2-451f-9E14-CD7798636FAC>
         a                            mim:Objecttype ;
-        mim:alias                    "Reëel object" ;
+        mim:alias                    "Re\uFFFDel object" ;
         mim:begrip                   <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object> ;
         mim:datumOpname              "20220601" ;
         mim:definitie                "Geo-object dat zich geheel materieel manifesteert." ;
@@ -516,7 +511,7 @@
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  true ;
         mim:naam                     "ReeelObject" ;
-        mim:toelichting              "Een reëel of fysiek object is een tastbaar begrensd object dat gekenmerkt wordt door zijn materiele samenstelling en structuur." .
+        mim:toelichting              "Een re\uFFFDel of fysiek object is een tastbaar begrensd object dat gekenmerkt wordt door zijn materiele samenstelling en structuur." .
 
 <urn:uuid:FDC67DCB-BBE0-4f8f-A49D-9A8130957E61>
         a              mim:Generalisatie ;
@@ -575,7 +570,7 @@
 
 <urn:uuid:6117ACBD-3892-4c5a-8241-2570BD334665>
         a                            mim:PrimitiefDatatype ;
-        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: geheel getal, lengte is minimaal 1 en maximale lengte is onbepaald, zonder voorloopnullen. Opmerking: t.a.v. positieve en negatieve getalen en + en  tekens: bijvoorbeeld -2,0 Het (formeel) patroon geeft aan of een + en/of - teken gebruikt mag worden in het gegeven." ;
+        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: geheel getal, lengte is minimaal 1 en maximale lengte is onbepaald, zonder voorloopnullen. Opmerking: t.a.v. positieve en negatieve getalen en + en ? tekens: bijvoorbeeld -2,0 Het (formeel) patroon geeft aan of een + en/of - teken gebruikt mag worden in het gegeven." ;
         mim:indicatieAbstractObject  false ;
         mim:naam                     "Integer" .
 
@@ -647,7 +642,7 @@
         a                            mim:Domein ;
         mim:bevatModelelement        <urn:uuid:E3956B4F-8CE1-4bdf-88DA-2201BAC43668> , <urn:uuid:AC4F927B-8E66-43a1-9290-5DC5E84203A6> , <urn:uuid:CC240C98-C4B6-4796-ADB1-24D0F841EC34> , <urn:uuid:21548D9F-88F5-41e4-85B3-0DC6A35FB407> , <urn:uuid:99749D9E-9B0F-4134-959D-4D7BE81D0CEA> , <urn:uuid:5183AC98-C887-4e5c-BC61-41A64257CE2A> , <urn:uuid:5E50A675-D501-40b6-82BE-6C49F355D3A0> , <urn:uuid:C16B3487-F0C4-4e06-BDBB-72DDA60C7BA8> , <urn:uuid:4CA7941A-0973-4909-8978-6C17A3CD6F0E> , <urn:uuid:A3F7184D-50E3-4d4d-B6B2-BB3127C7FBFC> , <urn:uuid:121AB4EC-0D70-48ee-BB85-EEF13378C900> , <urn:uuid:57FC8B96-00D7-4eb4-A03C-4EA90E3A5733> , <urn:uuid:DAECA380-235D-4a0a-95B9-A3C166AAC4BD> , <urn:uuid:531D0265-A1CA-45fa-9DFC-3CFD82071F26> , <urn:uuid:8A4801C0-D263-4a0b-99C5-A0C7A67FFE62> , <urn:uuid:5E62C776-3420-4eac-BA47-7EE0602F035B> , <urn:uuid:9426A967-757C-4889-ACD5-B1E420BF7E90> , <urn:uuid:F404593C-277B-4dcd-ABA9-EB37F8015AF4> , <urn:uuid:65280E13-7AA2-451f-9E14-CD7798636FAC> , <urn:uuid:240997BA-70F2-48dc-8A47-CA765C364BE7> , <urn:uuid:85C106F3-B76B-4f9e-ACCF-AABCA792A479> , <urn:uuid:0CD49AD6-5021-4f47-B055-638163C4A94F> ;
         mim:datumOpname              "20220601" ;
-        mim:definitie                "<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4\r\n\r\nHet semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reële objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object." ;
+        mim:definitie                "<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4\r\n\r\nHet semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast re\uFFFDle objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object." ;
         mim:herkomst                 "nen 3610" ;
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  false ;
@@ -707,7 +702,7 @@
         a                      mim:Attribuutsoort ;
         mim:authentiek         mim:OverigeAuthenticiteit ;
         mim:datumOpname        "2022-06-01" ;
-        mim:definitie          "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
+        mim:definitie          "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
         mim:formeelPatroon     "[a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
         mim:herkomst           "nen 3610" ;
         mim:herkomstDefinitie  "nen 3610" ;
@@ -715,7 +710,7 @@
         mim:kardinaliteit      "1..1" ;
         mim:naam               "identificatie" ;
         mim:patroon            "De reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
-        mim:toelichting        " identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\n\r\nDe reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
+        mim:toelichting        " ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\n\r\nDe reguliere expressie voor de toegestane tekens is: [a-zA-Z| 0-9| _| .| -|\\/|:|]" ;
         mim:type               <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:923B9BB6-C5E0-48c1-BBE4-C121DFB3BA56>
@@ -734,19 +729,18 @@
         mim:supertype  <urn:uuid:5E50A675-D501-40b6-82BE-6C49F355D3A0> .
 
 <urn:uuid:AA69E28B-EDF6-4ffe-A15B-1068A17AA9E0>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/begin_geldigheid> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Start van de periode waarop deze versie van het informatieobject geldig is." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "1..1" ;
-        mim:naam                        "beginGeldigheid" ;
-        mim:toelichting                 "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het vanaf-moment'. Bij een datum (date) is dat het begin van die dag." ;
-        mim:type                        <urn:uuid:326BCEE7-4BD2-46bb-BAFB-347B1076AE1D> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/begin_geldigheid> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Start van de periode waarop deze versie van het informatieobject geldig is." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "1..1" ;
+        mim:naam                      "beginGeldigheid" ;
+        mim:toelichting               "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. De start van een periode is het begin van de tijdsaanduiding; het ?vanaf-moment'. Bij een datum (date) is dat het begin van die dag." ;
+        mim:type                      <urn:uuid:326BCEE7-4BD2-46bb-BAFB-347B1076AE1D> .
 
 <urn:uuid:23F9390B-9A60-4941-A62C-85718E23E5B4>
         a                            mim:PrimitiefDatatype ;
@@ -784,21 +778,20 @@
         mim:naam                     "GM_LineString" .
 
 <urn:uuid:0933CF52-99E4-45ea-8615-9A1827202020>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/versie> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Versieaanduiding van een informatieobject." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "0..1" ;
-        mim:lengte                      "1..50" ;
-        mim:naam                        "versie" ;
-        mim:patroon                     "Waarde van attribuut versie mag maximaal 50 karakters bevatten." ;
-        mim:toelichting                 "Een versie van een informatieobject is een toestand van een informatieobject met zijn gegevens op een bepaald moment in de tijd. Het attribuut versie maakt geen deel uit van de identificatie van het object, maar kan worden gebruikt om verschillende instanties van hetzelfde informatieobject te identificeren." ;
-        mim:type                        <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/versie> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Versieaanduiding van een informatieobject." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "0..1" ;
+        mim:lengte                    "1..50" ;
+        mim:naam                      "versie" ;
+        mim:patroon                   "Waarde van attribuut versie mag maximaal 50 karakters bevatten." ;
+        mim:toelichting               "Een versie van een informatieobject is een toestand van een informatieobject met zijn gegevens op een bepaald moment in de tijd. Het attribuut versie maakt geen deel uit van de identificatie van het object, maar kan worden gebruikt om verschillende instanties van hetzelfde informatieobject te identificeren." ;
+        mim:type                      <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:A2949663-66E1-440a-B3DE-90584F0A9284>
         a                            mim:Informatiemodel ;
@@ -837,7 +830,7 @@
         mim:alias                    "/Geonovum/nen3610-werkomgeving" ;
         mim:bevatModelelement        <urn:uuid:AAB6354B-685C-4f41-8AD2-92A70007CA4D> , <urn:uuid:94A5BF41-39F9-48c6-85C6-FFDAB5DC4B68> , <urn:uuid:046027E3-508B-4e5e-9226-920BC0B8C860> ;
         mim:datumOpname              "20220601" ;
-        mim:definitie                "NEN 3610:2022 - Basismodel geo-informatie  Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.\r\n\r\nMim versie 1.1.1 is toegepast." ;
+        mim:definitie                "NEN 3610:2022 - Basismodel geo-informatie ? Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.\r\n\r\nMim versie 1.1.1 is toegepast." ;
         mim:herkomst                 "nen 3610" ;
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  false ;
@@ -905,20 +898,19 @@
         mim:supertype  <urn:uuid:5183AC98-C887-4e5c-BC61-41A64257CE2A> .
 
 <urn:uuid:3E82C86E-E6ED-4611-BE18-B0107AD443CF>
-        a                               mim:Relatiesoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/registratiegegevens> ;
-        mim:bron                        <urn:uuid:2EB8F2FF-4F71-4441-8B77-6DD2CFE62E6A> ;
-        mim:datumOpname                 "20220601" ;
-        mim:doel                        <urn:uuid:47CE152F-6789-46dc-A29F-33647F0A644A> ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "0..1" ;
-        mim:naam                        "geregistreerdMet" ;
-        mim:relatierol                  <urn:uuid-dst:3E82C86E-E6ED-4611-BE18-B0107AD443CF> ;
-        mim:toelichting                 "De registratiegegevens zijn de versie en tijdlijngegevens die horen bij het registreren van één versie van het informatieobject. Ze horen als metadata bij de gegevensset van het informatieobject." .
+        a                             mim:Relatiesoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/registratiegegevens> ;
+        mim:bron                      <urn:uuid:2EB8F2FF-4F71-4441-8B77-6DD2CFE62E6A> ;
+        mim:datumOpname               "20220601" ;
+        mim:doel                      <urn:uuid:47CE152F-6789-46dc-A29F-33647F0A644A> ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "0..1" ;
+        mim:naam                      "geregistreerdMet" ;
+        mim:relatierol                <urn:uuid-dst:3E82C86E-E6ED-4611-BE18-B0107AD443CF> ;
+        mim:toelichting               "De registratiegegevens zijn de versie en tijdlijngegevens die horen bij het registreren van \uFFFD\uFFFDn versie van het informatieobject. Ze horen als metadata bij de gegevensset van het informatieobject." .
 
 <urn:uuid:E832DF97-3EC2-431c-BFBD-A6EBAD1E6003>
         a              mim:Generalisatie ;
@@ -1008,19 +1000,18 @@
         mim:supertype  <urn:uuid:531D0265-A1CA-45fa-9DFC-3CFD82071F26> .
 
 <urn:uuid:5D2DB318-C979-46ee-A331-B9B88399F1F5>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/tijdstip_registratie> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Tijdsaanduiding van het moment waarop deze versie van het informatieobject is opgenomen in de registratie." ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "1..1" ;
-        mim:naam                        "tijdstipRegistratie" ;
-        mim:toelichting                 "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Voor tijdstip registratie zal DateTime in vrijwel alle gevallen de beste keuze zijn." ;
-        mim:type                        <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/tijdstip_registratie> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Tijdsaanduiding van het moment waarop deze versie van het informatieobject is opgenomen in de registratie." ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "1..1" ;
+        mim:naam                      "tijdstipRegistratie" ;
+        mim:toelichting               "Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of DateTime. Voor tijdstip registratie zal DateTime in vrijwel alle gevallen de beste keuze zijn." ;
+        mim:type                      <urn:uuid:4CB6BBE5-EFAF-4680-8E2F-C4DD1ADE6428> .
 
 <urn:uuid:A7FFB13A-B57A-48e1-9EFA-7D17F7F3A7D8>
         a                      mim:Attribuutsoort ;
@@ -1079,7 +1070,7 @@
 
 <urn:uuid:F8D66774-69DA-4eee-92BD-31EECCB65BF3>
         a                            mim:PrimitiefDatatype ;
-        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een real is een zwevendekommagetal, waarbij de precisie bepaald wordt door het aantal getoonde cijfers. Het getoonde getal is een schatting en geeft niet noodzakelijk de exacte waarde weer. Opmerking 1: Dit verschilt van decimal, want decimal is een exacte waarde en real is geschat. Opmerking 2: t.a.v. positieve en negatieve getalen en + en  tekens: zie Integer." ;
+        mim:definitie                "MIM: Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een real is een zwevendekommagetal, waarbij de precisie bepaald wordt door het aantal getoonde cijfers. Het getoonde getal is een schatting en geeft niet noodzakelijk de exacte waarde weer. Opmerking 1: Dit verschilt van decimal, want decimal is een exacte waarde en real is geschat. Opmerking 2: t.a.v. positieve en negatieve getalen en + en ? tekens: zie Integer." ;
         mim:indicatieAbstractObject  false ;
         mim:naam                     "Real" .
 
@@ -1121,22 +1112,21 @@
         mim:supertype  <urn:uuid:F404593C-277B-4dcd-ABA9-EB37F8015AF4> .
 
 <urn:uuid:5DE55742-811D-4f31-92D0-0354787B5A86>
-        a                               mim:Attribuutsoort ;
-        mim:authentiek                  mim:OverigeAuthenticiteit ;
-        mim:begrip                      <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein> ;
-        mim:datumOpname                 "20220601" ;
-        mim:definitie                   "Aanduiding van het domein waarbinnen de identificatie uniek is." ;
-        mim:formeelPatroon              "([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
-        mim:herkomst                    "nen 3610" ;
-        mim:herkomstDefinitie           "nen 3610" ;
-        mim:identificerend              true ;
-        mim:indicatieFormeleHistorie    false ;
-        mim:indicatieMaterieleHistorie  false ;
-        mim:kardinaliteit               "1..1" ;
-        mim:naam                        "domein" ;
-        mim:patroon                     "Alleen de volgende karakters mogen in een waarde van het attribuut domein voorkomen: {'A' ... 'Z', 'a' ... 'z', '0' ... '9', '_', '-', ',', '.', '/', ':'}" ;
-        mim:toelichting                 "Het attribuut domein is een unieke verwijzing naar de registratie- of ketenprocesverantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
-        mim:type                        <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
+        a                             mim:Attribuutsoort ;
+        mim:authentiek                mim:OverigeAuthenticiteit ;
+        mim:begrip                    <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein> ;
+        mim:datumOpname               "20220601" ;
+        mim:definitie                 "Aanduiding van het domein waarbinnen de identificatie uniek is." ;
+        mim:formeelPatroon            "([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        mim:herkomst                  "nen 3610" ;
+        mim:herkomstDefinitie         "nen 3610" ;
+        mim:identificerend            true ;
+        mim:indicatieFormeleHistorie  false ;
+        mim:kardinaliteit             "1..1" ;
+        mim:naam                      "domein" ;
+        mim:patroon                   "Alleen de volgende karakters mogen in een waarde van het attribuut domein voorkomen: {'A' ... 'Z', 'a' ... 'z', '0' ... '9', '_', '-', ',', '.', '/', ':'}" ;
+        mim:toelichting               "Het attribuut domein is een unieke verwijzing naar de registratie- of ketenprocesverantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek." ;
+        mim:type                      <urn:uuid:2C3F1533-2281-4567-9990-01DCEE6661C8> .
 
 <urn:uuid:0BDC5099-875E-4415-A542-A9FADCB3C87C>
         a                      mim:Enumeratiewaarde ;
@@ -1248,7 +1238,7 @@
         a                            mim:Objecttype ;
         mim:attribuut                <urn:uuid:A1B98275-C1D6-416a-A61B-AACB4C8C44A4> , <urn:uuid:5DE55742-811D-4f31-92D0-0354787B5A86> ;
         mim:datumOpname              "20221216" ;
-        mim:definitie                "Klasse opgenomen om identificatie-attributen in te definiëren." ;
+        mim:definitie                "Klasse opgenomen om identificatie-attributen in te defini\uFFFDren." ;
         mim:herkomst                 "nen 3610" ;
         mim:herkomstDefinitie        "nen 3610" ;
         mim:indicatieAbstractObject  true ;

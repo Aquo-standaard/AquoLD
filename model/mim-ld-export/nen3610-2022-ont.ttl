@@ -67,7 +67,7 @@ mim-item-ns:Spoorverkeerruimte
         sh:targetClass    mim-item-ns:Spoorverkeerruimte .
 
 mim-model-ns:NEN3610  a  owl:Ontology ;
-        rdfs:comment    "NEN 3610:2022 - Basismodel geo-informatie  Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.\r\n\r\nMim versie 1.1.1 is toegepast." ;
+        rdfs:comment    "NEN 3610:2022 - Basismodel geo-informatie ? Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten.\r\n\r\nMim versie 1.1.1 is toegepast." ;
         rdfs:label      "NEN3610" ;
         mim:equivalent  <urn:uuid:65777670-24BF-4aeb-9A66-6123DF281671> ;
         owl:imports     mim-model-ns:Basisinformatie-elementen , mim-model-ns:SemantischModel , mim-model-ns:Waardelijsten ;
@@ -105,7 +105,7 @@ mim-item-ns:objectEindTijd
 
 mim-item-ns:IdentificeerbaarObject.identificatie
         a               sh:PropertyShape ;
-        rdfs:comment    "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        rdfs:comment    "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
         mim:equivalent  <urn:uuid:A1B98275-C1D6-416a-A61B-AACB4C8C44A4> ;
         dct:subject     <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/identificatie> ;
         sh:datatype     mim-item-ns:CharacterString ;
@@ -141,7 +141,7 @@ mim-item-ns:Registratie.objectBeginTijd
 
 mim-item-ns:IdentificeerbaarObject
         a                 sh:NodeShape , owl:Class ;
-        rdfs:comment      "Klasse opgenomen om identificatie-attributen in te definiëren." ;
+        rdfs:comment      "Klasse opgenomen om identificatie-attributen in te defini\uFFFDren." ;
         rdfs:isDefinedBy  mim-model-ns:Basisinformatie-elementen ;
         rdfs:label        "IdentificeerbaarObject" ;
         mim:equivalent    <urn:uuid:2EB8F2FF-4F71-4441-8B77-6DD2CFE62E6A> ;
@@ -221,7 +221,7 @@ mim-item-ns:objectBeginTijd
         dct:subject     <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/object_begintijd> .
 
 mim-item-ns:Leiding  a    sh:NodeShape , owl:Class ;
-        rdfs:comment      "Een geheel van geleiders of een ruimte die voorzien is van één ommanteling en bestemd is voor transport van materie, data en/of energie." ;
+        rdfs:comment      "Een geheel van geleiders of een ruimte die voorzien is van \uFFFD\uFFFDn ommanteling en bestemd is voor transport van materie, data en/of energie." ;
         rdfs:isDefinedBy  mim-model-ns:SemantischModel ;
         rdfs:label        "Leiding" ;
         rdfs:subClassOf   mim-item-ns:Constructie ;
@@ -267,7 +267,7 @@ mim-item-ns:Registratie.versie
 
 mim-item-ns:identificatie
         a               owl:DatatypeProperty ;
-        rdfs:comment    "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
+        rdfs:comment    "Unieke identificatiecode van een informatieobject binnen de context van een registratie.\r\nToelichting:  ?identificatie' is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.\r\nDe reguliere expressie voor de toegestane tekens is: ([a-z]|[A-Z]|[0-9]|\\_|\\-|\\,|\\.|\\:|\\/)+" ;
         rdfs:label      "identificatie" ;
         mim:equivalent  <urn:uuid:A1B98275-C1D6-416a-A61B-AACB4C8C44A4> ;
         dct:subject     <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/identificatie> ;
@@ -401,7 +401,7 @@ mim-item-ns:Bodem  a      sh:NodeShape , owl:Class ;
 
 mim-model-ns:SemantischModel
         a               owl:Ontology ;
-        rdfs:comment    "<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4\r\n\r\nHet semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast reële objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object." ;
+        rdfs:comment    "<b>Semantisch model</b> -  NEN 3610 paragraaf 8.4\r\n\r\nHet semantisch model classificeert de objecttypen waarbij locatie-informatie van belang is. Het omvat naast re\uFFFDle objecten die fysiek (tastbaar) in de werkelijkheid aanwezig zijn, ook objecten die niet tastbaar zijn maar dienen om de ruimte in te delen en te benoemen vanuit administratieve en andere doeleinden. Deze verschillende views op de werkelijkheid leiden tot verschillende onafhankelijke classificaties. Deze classificaties hoeven niet per se uit het geodomein te komen. Voor NEN 3610 hebben de classificaties gemeenschappelijk dat ze informatie koppelen aan een locatie. Ze vervullen de rol van geo-object." ;
         rdfs:label      "SemantischModel" ;
         mim:equivalent  <urn:uuid:AAB6354B-685C-4f41-8AD2-92A70007CA4D> ;
         skos:notation   "SemantischModel" .
